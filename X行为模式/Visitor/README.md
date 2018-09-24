@@ -5,7 +5,7 @@
 
 访问者模式所需角色如下图
 
-![访问者模式UML](https://github.com/xcw0754/PPL/blob/master/UML/uml-visitor-20180924.png)
+![访问者模式UML](https://github.com/xcw0754/PPL/blob/master/UML/uml-visitor-20180924.jpg)
 
 
 其中Element类及其子类就是稳定的数据结构，Visitor类就是接口类，逻辑复杂且经常变动。如果想操作数据结构的话，我们都要给Visitor类提供一个对象，否则它不清楚要操作的是哪个对象。举个例子，排序功能就可以设计成访问者模式，数据结构逃不了字符串、整数等这些基本元素，而排序的算法是多样的，甚至可以弄个人工智能算法来排序。
